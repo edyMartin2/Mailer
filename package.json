@@ -1,0 +1,23 @@
+{
+  "name": "mailerbar",
+  "version": "1.0.0",
+  "description": "Servicio de envío de notificaciones por correo electrónico",
+  "main": "mailerbar.js",
+  "scripts": {
+    "serve": "nodemon mailerbar.js"
+  },
+  "keywords": [],
+  "author": "Space Bar - Development Department",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "googleapis": "^85.0.0",
+    "https": "^1.0.0",
+    "nodemailer": "^6.6.3",
+    "pm2": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
