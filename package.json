@@ -4,7 +4,7 @@
   "description": "Servicio de envío de notificaciones por correo electrónico",
   "main": "mailerbar.js",
   "scripts": {
-    "serve": "nodemon mailerbar.js"
+    "start": "node mailerbar.js"
   },
   "keywords": [],
   "author": "Space Bar - Development Department",
