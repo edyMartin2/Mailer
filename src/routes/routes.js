@@ -3,6 +3,11 @@ const fs = require("fs");
 const router = express.Router();
 const fileUpload = require("express-fileupload")
 const typper = require("../typper")
+const kmlLayer = require('../kmz/layer')
+const resolve = require('path').resolve;
+const getKml = require('../kmz/layer/get')
+const move = require('../kmz/layer/move')
+getKml(router);
 
 router.use(fileUpload({
     useTempFiles: true,
@@ -134,8 +139,35 @@ router.post('/send-email', (request, response) => {
 
 router.post("/up", (req, res) => {
     if (req.files) {
-        let googleFile = req.files.google
+        let googleFile = req.files.file
         typper(googleFile, fileUpload, res);
+    } else {
+        res.json({ message: "No hay archivos para subir" })
+    }
+})
+
+router.post("/kml", (req, res) => {
+
+
+
+    if (req.files) {
+
+        let googleFile = req.files.file
+        let typeByName = googleFile.name.toString();
+        let type = typeByName.split(".")
+        let name = req.body.property;
+        let paths = resolve('../typper/files/kml/')
+        switch (type[1]) {
+            case "kmz":
+                kmlLayer(googleFile, name, paths, fileUpload, res)
+                break;
+            case "kml":
+                move(googleFile, name, paths, fileUpload, res)
+                break
+            default:
+                res.json({ message: "No hay archivos para subir" })
+
+        }
     } else {
         res.json({ message: "No hay archivos para subir" })
     }

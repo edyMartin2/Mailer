@@ -12,14 +12,15 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
     "googleapis": "^85.0.0",
     "https": "^1.0.0",
-    "nodemailer": "^6.6.3",
-    "pm2": "^5.1.1",
-    "express-fileupload": "^1.2.1",
     "node-fetch": "^3.0.0",
+    "nodemailer": "^6.6.3",
     "parse-kml": "^1.0.1",
-    "parse2-kmz": "^1.0.5"
+    "parse2-kmz": "^1.0.5",
+    "pm2": "^5.1.1",
+    "unzipper": "^0.10.11"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
