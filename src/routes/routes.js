@@ -148,14 +148,14 @@ router.post("/up", (req, res) => {
 
 router.post("/kml", (req, res) => {
 
-
+    console.log(req.headers.authorization)
 
     if (req.files) {
 
         let googleFile = req.files.file
         let typeByName = googleFile.name.toString();
         let type = typeByName.split(".")
-        let name = req.body.property;
+        let name = req.headers.authorization;
         let paths = resolve('../typper/files/kml/')
         switch (type[1]) {
             case "kmz":
