@@ -7,6 +7,7 @@ const kmlLayer = require('../kmz/layer')
 const resolve = require('path').resolve;
 const getKml = require('../kmz/layer/get')
 const move = require('../kmz/layer/move')
+const resolver = require('path').resolve
 getKml(router);
 
 router.use(fileUpload({
@@ -173,4 +174,18 @@ router.post("/kml", (req, res) => {
     }
 })
 
+router.post('/delete', (req, res) => {
+    if (req.body.name) {
+        let name = req.body.name
+        let path = resolve('src/kmz/layer/kml')
+        fs.unlink(`${path}/${name}.kml`, (err => {
+            if (err) {
+                res.json({message: "no existe el archivo"})
+            }
+            else {
+                res.json({message: "listo"})
+            }
+        }));
+    }
+})
 module.exports = router;

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kmz prueba 2.shp</name>
+	<Schema name="kmz prueba 2" id="S_kmz_prueba_2_DSSSSSSSSSDSSSSSSSSSSSSSSSS">
+		<SimpleField type="double" name="fid"><displayName>&lt;b&gt;fid&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOMBRE"><displayName>&lt;b&gt;NOMBRE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ADMINISTRA"><displayName>&lt;b&gt;ADMINISTRA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DESARROLLA"><displayName>&lt;b&gt;DESARROLLA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SOCIO"><displayName>&lt;b&gt;SOCIO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TIPO_INVER"><displayName>&lt;b&gt;TIPO_INVER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="PLANMTRO"><displayName>&lt;b&gt;PLANMTRO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="VIALIDADES"><displayName>&lt;b&gt;VIALIDADES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="DESARROLLO"><displayName>&lt;b&gt;DESARROLLO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="ADMINIST_1"><displayName>&lt;b&gt;ADMINIST_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CLASE_ASEN"><displayName>&lt;b&gt;CLASE_ASEN&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="CONTPI"><displayName>&lt;b&gt;CONTPI&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="CONTZI"><displayName>&lt;b&gt;CONTZI&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="EVIDENCIA"><displayName>&lt;b&gt;EVIDENCIA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUENTE"><displayName>&lt;b&gt;FUENTE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="OBSERVACIO"><displayName>&lt;b&gt;OBSERVACIO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PENDIENTES"><displayName>&lt;b&gt;PENDIENTES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FECHA_IMAG"><displayName>&lt;b&gt;FECHA_IMAG&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_fid"><displayName>&lt;b&gt;MASTER_fid&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_NOM"><displayName>&lt;b&gt;MASTER_NOM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_N_1"><displayName>&lt;b&gt;MASTER_N_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_TIP"><displayName>&lt;b&gt;MASTER_TIP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_AMP"><displayName>&lt;b&gt;MASTER_AMP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_EX_"><displayName>&lt;b&gt;MASTER_EX_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_REG"><displayName>&lt;b&gt;MASTER_REG&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_N_2"><displayName>&lt;b&gt;MASTER_N_2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_OEA"><displayName>&lt;b&gt;MASTER_OEA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_N_3"><displayName>&lt;b&gt;MASTER_N_3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_PI_"><displayName>&lt;b&gt;MASTER_PI_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_CAL"><displayName>&lt;b&gt;MASTER_CAL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_P_1"><displayName>&lt;b&gt;MASTER_P_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOM_ENT"><displayName>&lt;b&gt;NOM_ENT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOM_MUN"><displayName>&lt;b&gt;NOM_MUN&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CVEGEO"><displayName>&lt;b&gt;CVEGEO&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>fid</b></td><td>$[kmz prueba 2/fid]</td></tr>
+  <tr><td><b>NOMBRE</b></td><td>$[kmz prueba 2/NOMBRE]</td></tr>
+  <tr><td><b>ADMINISTRA</b></td><td>$[kmz prueba 2/ADMINISTRA]</td></tr>
+  <tr><td><b>DESARROLLA</b></td><td>$[kmz prueba 2/DESARROLLA]</td></tr>
+  <tr><td><b>SOCIO</b></td><td>$[kmz prueba 2/SOCIO]</td></tr>
+  <tr><td><b>TIPO_INVER</b></td><td>$[kmz prueba 2/TIPO_INVER]</td></tr>
+  <tr><td><b>PLANMTRO</b></td><td>$[kmz prueba 2/PLANMTRO]</td></tr>
+  <tr><td><b>VIALIDADES</b></td><td>$[kmz prueba 2/VIALIDADES]</td></tr>
+  <tr><td><b>DESARROLLO</b></td><td>$[kmz prueba 2/DESARROLLO]</td></tr>
+  <tr><td><b>ADMINIST_1</b></td><td>$[kmz prueba 2/ADMINIST_1]</td></tr>
+  <tr><td><b>CLASE_ASEN</b></td><td>$[kmz prueba 2/CLASE_ASEN]</td></tr>
+  <tr><td><b>CONTPI</b></td><td>$[kmz prueba 2/CONTPI]</td></tr>
+  <tr><td><b>CONTZI</b></td><td>$[kmz prueba 2/CONTZI]</td></tr>
+  <tr><td><b>EVIDENCIA</b></td><td>$[kmz prueba 2/EVIDENCIA]</td></tr>
+  <tr><td><b>FUENTE</b></td><td>$[kmz prueba 2/FUENTE]</td></tr>
+  <tr><td><b>OBSERVACIO</b></td><td>$[kmz prueba 2/OBSERVACIO]</td></tr>
+  <tr><td><b>PENDIENTES</b></td><td>$[kmz prueba 2/PENDIENTES]</td></tr>
+  <tr><td><b>FECHA_IMAG</b></td><td>$[kmz prueba 2/FECHA_IMAG]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[kmz prueba 2/AREA]</td></tr>
+  <tr><td><b>MASTER_fid</b></td><td>$[kmz prueba 2/MASTER_fid]</td></tr>
+  <tr><td><b>MASTER_NOM</b></td><td>$[kmz prueba 2/MASTER_NOM]</td></tr>
+  <tr><td><b>MASTER_N_1</b></td><td>$[kmz prueba 2/MASTER_N_1]</td></tr>
+  <tr><td><b>MASTER_TIP</b></td><td>$[kmz prueba 2/MASTER_TIP]</td></tr>
+  <tr><td><b>MASTER_AMP</b></td><td>$[kmz prueba 2/MASTER_AMP]</td></tr>
+  <tr><td><b>MASTER_EX_</b></td><td>$[kmz prueba 2/MASTER_EX_]</td></tr>
+  <tr><td><b>MASTER_REG</b></td><td>$[kmz prueba 2/MASTER_REG]</td></tr>
+  <tr><td><b>MASTER_N_2</b></td><td>$[kmz prueba 2/MASTER_N_2]</td></tr>
+  <tr><td><b>MASTER_OEA</b></td><td>$[kmz prueba 2/MASTER_OEA]</td></tr>
+  <tr><td><b>MASTER_N_3</b></td><td>$[kmz prueba 2/MASTER_N_3]</td></tr>
+  <tr><td><b>MASTER_PI_</b></td><td>$[kmz prueba 2/MASTER_PI_]</td></tr>
+  <tr><td><b>MASTER_CAL</b></td><td>$[kmz prueba 2/MASTER_CAL]</td></tr>
+  <tr><td><b>MASTER_P_1</b></td><td>$[kmz prueba 2/MASTER_P_1]</td></tr>
+  <tr><td><b>NOM_ENT</b></td><td>$[kmz prueba 2/NOM_ENT]</td></tr>
+  <tr><td><b>NOM_MUN</b></td><td>$[kmz prueba 2/NOM_MUN]</td></tr>
+  <tr><td><b>CVEGEO</b></td><td>$[kmz prueba 2/CVEGEO]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>kmz prueba 2</name>
+		<visibility>0</visibility>
+		<Placemark>
+			<name>Monterrey Technology Park</name>
+			<visibility>0</visibility>
+			<styleUrl>#falseColor</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_kmz_prueba_2_DSSSSSSSSSDSSSSSSSSSSSSSSSS">
+					<SimpleData name="fid">828</SimpleData>
+					<SimpleData name="NOMBRE">Monterrey Technology Park</SimpleData>
+					<SimpleData name="ADMINISTRA">FIBRA Macquarie</SimpleData>
+					<SimpleData name="DESARROLLA"></SimpleData>
+					<SimpleData name="SOCIO">1</SimpleData>
+					<SimpleData name="TIPO_INVER">Privada</SimpleData>
+					<SimpleData name="PLANMTRO">1</SimpleData>
+					<SimpleData name="VIALIDADES">1</SimpleData>
+					<SimpleData name="DESARROLLO">1</SimpleData>
+					<SimpleData name="ADMINIST_1">1</SimpleData>
+					<SimpleData name="CLASE_ASEN">Naves</SimpleData>
+					<SimpleData name="CONTPI">1</SimpleData>
+					<SimpleData name="CONTZI">0</SimpleData>
+					<SimpleData name="EVIDENCIA">0</SimpleData>
+					<SimpleData name="FUENTE"></SimpleData>
+					<SimpleData name="OBSERVACIO"></SimpleData>
+					<SimpleData name="PENDIENTES"></SimpleData>
+					<SimpleData name="FECHA_IMAG"></SimpleData>
+					<SimpleData name="AREA">2.96293</SimpleData>
+					<SimpleData name="MASTER_fid">828</SimpleData>
+					<SimpleData name="MASTER_NOM">Monterrey Technology Park</SimpleData>
+					<SimpleData name="MASTER_N_1">Monterrey Technology Park</SimpleData>
+					<SimpleData name="MASTER_TIP">Nave industrial</SimpleData>
+					<SimpleData name="MASTER_AMP">Si</SimpleData>
+					<SimpleData name="MASTER_EX_"></SimpleData>
+					<SimpleData name="MASTER_REG">Noreste</SimpleData>
+					<SimpleData name="MASTER_N_2">FIBRA Macquarie</SimpleData>
+					<SimpleData name="MASTER_OEA">No</SimpleData>
+					<SimpleData name="MASTER_N_3">No</SimpleData>
+					<SimpleData name="MASTER_PI_">No</SimpleData>
+					<SimpleData name="MASTER_CAL">No</SimpleData>
+					<SimpleData name="MASTER_P_1">No</SimpleData>
+					<SimpleData name="NOM_ENT">Nuevo León</SimpleData>
+					<SimpleData name="NOM_MUN">General Zuazua</SimpleData>
+					<SimpleData name="CVEGEO">19025</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<MultiGeometry>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-100.2289870160391,25.90117548976961,0 -100.2281182100245,25.90223597341087,0 -100.2288228158593,25.9026914266721,0 -100.2293287186918,25.90202731689609,0 -100.2293039589068,25.90201171580735,0 -100.2295145880175,25.9017141587946,0 -100.2296280202854,25.90155391203614,0 -100.2289870160391,25.90117548976961,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-100.228699353952,25.90288437678459,0 -100.2279186756288,25.90240873175143,0 -100.2276517983746,25.90251567726403,0 -100.2276517983746,25.90251268578249,0 -100.226854492185,25.90347743465092,0 -100.227801864868,25.90405254088212,0 -100.228699353952,25.90288437678459,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
