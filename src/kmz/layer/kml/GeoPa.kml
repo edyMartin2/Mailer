@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kmz prueba 1.shp</name>
+	<open>1</open>
+	<Schema name="kmz prueba 1" id="S_kmz_prueba_1_DSSSSSSSSSDSSSSSSSSSSSSSSSS">
+		<SimpleField type="double" name="fid"><displayName>&lt;b&gt;fid&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOMBRE"><displayName>&lt;b&gt;NOMBRE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ADMINISTRA"><displayName>&lt;b&gt;ADMINISTRA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DESARROLLA"><displayName>&lt;b&gt;DESARROLLA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="SOCIO"><displayName>&lt;b&gt;SOCIO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="TIPO_INVER"><displayName>&lt;b&gt;TIPO_INVER&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="PLANMTRO"><displayName>&lt;b&gt;PLANMTRO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="VIALIDADES"><displayName>&lt;b&gt;VIALIDADES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="DESARROLLO"><displayName>&lt;b&gt;DESARROLLO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="ADMINIST_1"><displayName>&lt;b&gt;ADMINIST_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CLASE_ASEN"><displayName>&lt;b&gt;CLASE_ASEN&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="CONTPI"><displayName>&lt;b&gt;CONTPI&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="CONTZI"><displayName>&lt;b&gt;CONTZI&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="EVIDENCIA"><displayName>&lt;b&gt;EVIDENCIA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FUENTE"><displayName>&lt;b&gt;FUENTE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="OBSERVACIO"><displayName>&lt;b&gt;OBSERVACIO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="PENDIENTES"><displayName>&lt;b&gt;PENDIENTES&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="FECHA_IMAG"><displayName>&lt;b&gt;FECHA_IMAG&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="AREA"><displayName>&lt;b&gt;AREA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_fid"><displayName>&lt;b&gt;MASTER_fid&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_NOM"><displayName>&lt;b&gt;MASTER_NOM&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_N_1"><displayName>&lt;b&gt;MASTER_N_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_TIP"><displayName>&lt;b&gt;MASTER_TIP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_AMP"><displayName>&lt;b&gt;MASTER_AMP&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_EX_"><displayName>&lt;b&gt;MASTER_EX_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_REG"><displayName>&lt;b&gt;MASTER_REG&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_N_2"><displayName>&lt;b&gt;MASTER_N_2&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_OEA"><displayName>&lt;b&gt;MASTER_OEA&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_N_3"><displayName>&lt;b&gt;MASTER_N_3&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_PI_"><displayName>&lt;b&gt;MASTER_PI_&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_CAL"><displayName>&lt;b&gt;MASTER_CAL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="MASTER_P_1"><displayName>&lt;b&gt;MASTER_P_1&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOM_ENT"><displayName>&lt;b&gt;NOM_ENT&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="NOM_MUN"><displayName>&lt;b&gt;NOM_MUN&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CVEGEO"><displayName>&lt;b&gt;CVEGEO&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="falseColor">
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>fid</b></td><td>$[kmz prueba 1/fid]</td></tr>
+  <tr><td><b>NOMBRE</b></td><td>$[kmz prueba 1/NOMBRE]</td></tr>
+  <tr><td><b>ADMINISTRA</b></td><td>$[kmz prueba 1/ADMINISTRA]</td></tr>
+  <tr><td><b>DESARROLLA</b></td><td>$[kmz prueba 1/DESARROLLA]</td></tr>
+  <tr><td><b>SOCIO</b></td><td>$[kmz prueba 1/SOCIO]</td></tr>
+  <tr><td><b>TIPO_INVER</b></td><td>$[kmz prueba 1/TIPO_INVER]</td></tr>
+  <tr><td><b>PLANMTRO</b></td><td>$[kmz prueba 1/PLANMTRO]</td></tr>
+  <tr><td><b>VIALIDADES</b></td><td>$[kmz prueba 1/VIALIDADES]</td></tr>
+  <tr><td><b>DESARROLLO</b></td><td>$[kmz prueba 1/DESARROLLO]</td></tr>
+  <tr><td><b>ADMINIST_1</b></td><td>$[kmz prueba 1/ADMINIST_1]</td></tr>
+  <tr><td><b>CLASE_ASEN</b></td><td>$[kmz prueba 1/CLASE_ASEN]</td></tr>
+  <tr><td><b>CONTPI</b></td><td>$[kmz prueba 1/CONTPI]</td></tr>
+  <tr><td><b>CONTZI</b></td><td>$[kmz prueba 1/CONTZI]</td></tr>
+  <tr><td><b>EVIDENCIA</b></td><td>$[kmz prueba 1/EVIDENCIA]</td></tr>
+  <tr><td><b>FUENTE</b></td><td>$[kmz prueba 1/FUENTE]</td></tr>
+  <tr><td><b>OBSERVACIO</b></td><td>$[kmz prueba 1/OBSERVACIO]</td></tr>
+  <tr><td><b>PENDIENTES</b></td><td>$[kmz prueba 1/PENDIENTES]</td></tr>
+  <tr><td><b>FECHA_IMAG</b></td><td>$[kmz prueba 1/FECHA_IMAG]</td></tr>
+  <tr><td><b>AREA</b></td><td>$[kmz prueba 1/AREA]</td></tr>
+  <tr><td><b>MASTER_fid</b></td><td>$[kmz prueba 1/MASTER_fid]</td></tr>
+  <tr><td><b>MASTER_NOM</b></td><td>$[kmz prueba 1/MASTER_NOM]</td></tr>
+  <tr><td><b>MASTER_N_1</b></td><td>$[kmz prueba 1/MASTER_N_1]</td></tr>
+  <tr><td><b>MASTER_TIP</b></td><td>$[kmz prueba 1/MASTER_TIP]</td></tr>
+  <tr><td><b>MASTER_AMP</b></td><td>$[kmz prueba 1/MASTER_AMP]</td></tr>
+  <tr><td><b>MASTER_EX_</b></td><td>$[kmz prueba 1/MASTER_EX_]</td></tr>
+  <tr><td><b>MASTER_REG</b></td><td>$[kmz prueba 1/MASTER_REG]</td></tr>
+  <tr><td><b>MASTER_N_2</b></td><td>$[kmz prueba 1/MASTER_N_2]</td></tr>
+  <tr><td><b>MASTER_OEA</b></td><td>$[kmz prueba 1/MASTER_OEA]</td></tr>
+  <tr><td><b>MASTER_N_3</b></td><td>$[kmz prueba 1/MASTER_N_3]</td></tr>
+  <tr><td><b>MASTER_PI_</b></td><td>$[kmz prueba 1/MASTER_PI_]</td></tr>
+  <tr><td><b>MASTER_CAL</b></td><td>$[kmz prueba 1/MASTER_CAL]</td></tr>
+  <tr><td><b>MASTER_P_1</b></td><td>$[kmz prueba 1/MASTER_P_1]</td></tr>
+  <tr><td><b>NOM_ENT</b></td><td>$[kmz prueba 1/NOM_ENT]</td></tr>
+  <tr><td><b>NOM_MUN</b></td><td>$[kmz prueba 1/NOM_MUN]</td></tr>
+  <tr><td><b>CVEGEO</b></td><td>$[kmz prueba 1/CVEGEO]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<PolyStyle>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>kmz prueba 1</name>
+		<Placemark>
+			<name>Bernardo Quintana Industrial Park</name>
+			<styleUrl>#falseColor</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_kmz_prueba_1_DSSSSSSSSSDSSSSSSSSSSSSSSSS">
+					<SimpleData name="fid">603</SimpleData>
+					<SimpleData name="NOMBRE">Parque Industrial Bernardo Quintana</SimpleData>
+					<SimpleData name="ADMINISTRA"></SimpleData>
+					<SimpleData name="DESARROLLA"></SimpleData>
+					<SimpleData name="SOCIO">0</SimpleData>
+					<SimpleData name="TIPO_INVER"></SimpleData>
+					<SimpleData name="PLANMTRO">1</SimpleData>
+					<SimpleData name="VIALIDADES">0</SimpleData>
+					<SimpleData name="DESARROLLO">0</SimpleData>
+					<SimpleData name="ADMINIST_1">0</SimpleData>
+					<SimpleData name="CLASE_ASEN">Zona industrial</SimpleData>
+					<SimpleData name="CONTPI">0</SimpleData>
+					<SimpleData name="CONTZI">1</SimpleData>
+					<SimpleData name="EVIDENCIA">1</SimpleData>
+					<SimpleData name="FUENTE">Mapa de Somos Industria.</SimpleData>
+					<SimpleData name="OBSERVACIO">Luce ordenado, pero no parece que tenga una administración permanente.</SimpleData>
+					<SimpleData name="PENDIENTES">Consultar si tiene una administración permanente.</SimpleData>
+					<SimpleData name="FECHA_IMAG"></SimpleData>
+					<SimpleData name="AREA">232.914</SimpleData>
+					<SimpleData name="MASTER_fid">603</SimpleData>
+					<SimpleData name="MASTER_NOM">Parque Industrial Bernardo Quintana</SimpleData>
+					<SimpleData name="MASTER_N_1">Bernardo Quintana Industrial Park</SimpleData>
+					<SimpleData name="MASTER_TIP">Zona industrial</SimpleData>
+					<SimpleData name="MASTER_AMP">Si</SimpleData>
+					<SimpleData name="MASTER_EX_"></SimpleData>
+					<SimpleData name="MASTER_REG">Centro Occidente</SimpleData>
+					<SimpleData name="MASTER_N_2">FIBRA Macquarie</SimpleData>
+					<SimpleData name="MASTER_OEA">No</SimpleData>
+					<SimpleData name="MASTER_N_3">No</SimpleData>
+					<SimpleData name="MASTER_PI_">No</SimpleData>
+					<SimpleData name="MASTER_CAL">No</SimpleData>
+					<SimpleData name="MASTER_P_1">No</SimpleData>
+					<SimpleData name="NOM_ENT">Querétaro</SimpleData>
+					<SimpleData name="NOM_MUN">El Marqués</SimpleData>
+					<SimpleData name="CVEGEO">22011</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-100.2815760201863,20.56718903951169,0 -100.2815429826496,20.56700733447084,0 -100.2810250996942,20.5653631087312,0 -100.2807094317083,20.56375580655004,0 -100.2813285524782,20.56376217602416,0 -100.2823289670084,20.56313820152404,0 -100.2829550370972,20.56312526011014,0 -100.2829297198166,20.56222380925047,0 -100.2848537485374,20.56226877009244,0 -100.2848546565342,20.56154025555166,0 -100.2861347758805,20.56155549438186,0 -100.2861402384805,20.56098271074866,0 -100.2861406592806,20.56060157277516,0 -100.2861444394765,20.55937833566647,0 -100.2848907680229,20.55933842137064,0 -100.2844922299002,20.5585524656453,0 -100.2839905172298,20.55859925259217,0 -100.2840911138419,20.55922706429836,0 -100.2802197078307,20.55932894903109,0 -100.2794629915265,20.55938789745903,0 -100.2794277952797,20.55799710771202,0 -100.27753367878,20.55801986817577,0 -100.2775664281719,20.55949451073623,0 -100.2759033718052,20.55953819301271,0 -100.274553089663,20.55954990638466,0 -100.2735214176255,20.55946477751059,0 -100.2709693993482,20.55941922526717,0 -100.2676472858686,20.55936428238261,0 -100.2679786568123,20.56435550067944,0 -100.2679467642661,20.56494630426326,0 -100.267922985981,20.56542335810661,0 -100.2677786575624,20.56590894240749,0 -100.267579794681,20.56616954994636,0 -100.267300556915,20.56653521043361,0 -100.2670068961414,20.56681619966146,0 -100.2665551573794,20.56709104832277,0 -100.2658611891347,20.56743660645947,0 -100.2610460005953,20.56974777292136,0 -100.2607687294694,20.56999799004423,0 -100.2605739544719,20.57027735957585,0 -100.2605206873898,20.57043533620371,0 -100.2605211010402,20.57064425128123,0 -100.2605777250311,20.57093816285659,0 -100.2606528628575,20.57106630193641,0 -100.2607488144676,20.57120099605915,0 -100.2608818565489,20.57133008876072,0 -100.2611713271532,20.57150746773159,0 -100.2613780147568,20.57152391659186,0 -100.2614232786097,20.57156907918964,0 -100.2814070366908,20.57107960254719,0 -100.2815617051286,20.57108002352332,0 -100.281610672628,20.57105466035136,0 -100.2816406776566,20.57102268167789,0 -100.2816708568328,20.5709777238896,0 -100.2816782215042,20.57090699225309,0 -100.2815993700893,20.56743311023325,0 -100.2815760201863,20.56718903951169,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
