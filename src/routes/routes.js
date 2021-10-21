@@ -9,7 +9,7 @@ const getKml = require('../kmz/layer/get')
 const move = require('../kmz/layer/move')
 const resolver = require('path').resolve
 getKml(router);
-
+ 
 router.use(fileUpload({
     useTempFiles: true,
     tempFileDir: '/tmp/',
