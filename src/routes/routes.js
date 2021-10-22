@@ -7,9 +7,10 @@ const kmlLayer = require('../kmz/layer')
 const resolve = require('path').resolve;
 const getKml = require('../kmz/layer/get')
 const move = require('../kmz/layer/move')
+const rename = require('../kmz/layer/rename')
 const resolver = require('path').resolve
 getKml(router);
- 
+
 router.use(fileUpload({
     useTempFiles: true,
     tempFileDir: '/tmp/',
@@ -180,12 +181,21 @@ router.post('/delete', (req, res) => {
         let path = resolve('src/kmz/layer/kml')
         fs.unlink(`${path}/${name}.kml`, (err => {
             if (err) {
-                res.json({message: "no existe el archivo"})
+                res.json({ message: "no existe el archivo" })
             }
             else {
-                res.json({message: "listo"})
+                res.json({ message: "listo" })
             }
         }));
+    }
+})
+
+router.post('/change_name', (req, res) => {
+    if (req.body.name && req.body.nickname) {
+        let name = req.body.name;
+        let nickname = req.body.nickname;
+        rename(name, nickname);
+        res.json({message: "nombre cambiado correctamente"})
     }
 })
 module.exports = router;
