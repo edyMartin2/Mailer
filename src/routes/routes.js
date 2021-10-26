@@ -200,7 +200,7 @@ router.post('/change_name', (req, res) => {
     }
 })
 
-router.post('/messages', (req, res) => {
+router.post('/messages', async (req, res) => {
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 587,
@@ -212,10 +212,9 @@ router.post('/messages', (req, res) => {
     });
     let info = await transporter.sendMail({
         from: 'ampip', // sender address
-        to: "edgar@space.bar", // list of receivers
-        subject: "Hello ✔", // Subject line
-        text: "Hello world?", // plain text body
-        html: "<b>Hello world?</b>", // html body
+        to: "isai@space.bar", // list of receivers
+        subject: "Propiedad creada ✔", // Subject line
+        text: "Autorizacion pendiente"
     });
     res.json({ message: "Listo" })
 })
