@@ -9,6 +9,7 @@ const getKml = require('../kmz/layer/get')
 const move = require('../kmz/layer/move')
 const rename = require('../kmz/layer/rename')
 const resolver = require('path').resolve
+const nodemailer = require('nodemailer')
 getKml(router);
 
 router.use(fileUpload({
@@ -195,7 +196,27 @@ router.post('/change_name', (req, res) => {
         let name = req.body.name;
         let nickname = req.body.nickname;
         rename(name, nickname);
-        res.json({message: "nombre cambiado correctamente"})
+        res.json({ message: "nombre cambiado correctamente" })
     }
+})
+
+router.post('/messages', (req, res) => {
+    let transporter = nodemailer.createTransport({
+        host: "smtp.gmail.com",
+        port: 587,
+        secure: false, // true for 465, false for other ports
+        auth: {
+            user: "edgar@space.bar", // generated ethereal user
+            pass: "xapgnkilnlxzvzam", // generated ethereal password
+        },
+    });
+    let info = await transporter.sendMail({
+        from: 'ampip', // sender address
+        to: "edgar@space.bar", // list of receivers
+        subject: "Hello ✔", // Subject line
+        text: "Hello world?", // plain text body
+        html: "<b>Hello world?</b>", // html body
+    });
+    res.json({ message: "Listo" })
 })
 module.exports = router;
