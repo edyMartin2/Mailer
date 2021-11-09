@@ -218,4 +218,28 @@ router.post('/messages', async (req, res) => {
     });
     res.json({ message: "Listo" })
 })
+
+router.post('/forgot_password', async (req, res) => {
+    if (req.body.user) {
+        let user = req.body.user;
+        let transporter = nodemailer.createTransport({
+            host: "smtp.gmail.com",
+            port: 587,
+            secure: false, // true for 465, false for other ports
+            auth: {
+                user: "edgar@space.bar", // generated ethereal user
+                pass: "xapgnkilnlxzvzam", // generated ethereal password
+            },
+        });
+        let info = await transporter.sendMail({
+            from: 'Olvide mi contraseña AMPIP', // sender address
+            to: "isai@space.bar", // list of receivers
+            subject: "Olvide mi contraseña", // Subject line
+            text: ` El usuario con correo ${user} olvido su contraseña`
+        });
+        res.json({ message: "AMPIP Se contactara contigo" })
+    } else {
+        res.json({ message: "Porfavor ingresa tu correo" })
+    }
+})
 module.exports = router;
