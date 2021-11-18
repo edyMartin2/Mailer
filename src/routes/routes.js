@@ -228,7 +228,7 @@ router.post('/forgot_password', async (req, res) => {
             secure: false, // true for 465, false for other ports
             auth: {
                 user: "edgar@space.bar", // generated ethereal user
-                pass: "xapgnkilnlxzvzam", // generated ethereal password
+                pass: "puhzzvgdgldbyhwz", // generated ethereal password
             },
         });
         let info = await transporter.sendMail({
